@@ -58,10 +58,10 @@
 
 .stats li {
     flex-basis: calc(100% / 3);
-        text-align: center;
-        padding: 10px;
-        border: 1px solid #2a2a2b;
-        background-color: #ebf2f5;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #9c9c9c;
+    background-color: #ebf2f5;
 }
 
 .label {

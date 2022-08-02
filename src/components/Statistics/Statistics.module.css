@@ -1,0 +1,37 @@
+.statistics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid #9c9c9c;
+    margin: 30px auto 30px auto;
+    background-color: rgb(209, 237, 250);
+    
+}
+
+.stat-list {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid #9c9c9c;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}
+
+.stat-item {
+    flex-basis: calc(100% / 5);
+    text-align: center;
+    padding: 10px;
+}
+
+.stat-label {
+    font-size: 15px;
+}
+
+.stat-percentage {
+    font-size: 20px;
+    font-weight: 700;
+}
