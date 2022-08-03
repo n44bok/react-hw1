@@ -6,7 +6,7 @@ import FriendsListItem from './FriendsListItem/FriendListItem';
 
 function FriendsList(friends) {
     return (
-        <ul class={styles['friends-list']}>
+        <ul className={styles['friends-list']}>
             {friends.friends.map(({ avatar, name, isOnline, id }) => (
                 <FriendsListItem
                 avatar={avatar}
